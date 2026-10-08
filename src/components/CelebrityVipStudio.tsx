@@ -12,6 +12,10 @@ import {
   Copy,
 } from 'lucide-react';
 import { CinemaImage } from './CinemaImage';
+import musicVideoPopStarImg from '../assets/images/music_video_pop_star_1791448392479.jpg';
+import musicVideoNightClubImg from '../assets/images/music_video_night_club_1791448416254.jpg';
+import directorBehindScenesImg from '../assets/images/director_behind_scenes_1791448428968.jpg';
+import commercialAdidasImg from '../assets/images/commercial_adidas_campaign_1791448404590.jpg';
 
 interface VibePreset {
   id: string;
@@ -32,7 +36,7 @@ const VIBE_PRESETS: VibePreset[] = [
     inspiredBy: 'בוייב של אנה זק · כוריאוגרפיה וסטים מתחלפים',
     description:
       'האנגר ענק, להקת רקדנים, מצלמת רחף (Technocrane), תאורת מופע חכמה ופריימים שנראים כמו הפקה של לייבל בלוס אנג׳לס.',
-    image: '/src/assets/images/music_video_pop_star_1791448392479.jpg',
+    image: musicVideoPopStarImg,
     cameraLook: 'RED V-RAPTOR 8K + ATLAS ANAMORPHIC',
     setVibe: 'אנרגיה שיא, דיג׳יי על הסט, 4 לוקיישנים ביום צילום אחד',
   },
@@ -43,7 +47,7 @@ const VIBE_PRESETS: VibePreset[] = [
     inspiredBy: 'בוייב של שירי מימון · עידו מלכה · כרקוקלי',
     description:
       'צילומי לילה בלוקיישנים סודיים, מכוניות אספנות, גשם מלאכותי על העדשה, עשן אטמוספרי וצבעוניות של סרט קולנוע.',
-    image: '/src/assets/images/music_video_night_club_1791448416254.jpg',
+    image: musicVideoNightClubImg,
     cameraLook: 'ARRI ALEXA MINI LF + KOWA ANAMORPHIC',
     setVibe: 'לוק מחוספס, יוקרתי וממגנט שלא מפסיקים לשתף בסטורי',
   },
@@ -54,7 +58,7 @@ const VIBE_PRESETS: VibePreset[] = [
     inspiredBy: 'בוייב של בחורים טובים 3 בניו יורק · סטים באירופה',
     description:
       'עולים על מטוס עם הצוות המנצח ומצלמים ברחובות מנהטן, ארמונות בפראג או נופים מטורפים בגאורגיה — בתקציב חכם שמשאיר את כולם בהלם.',
-    image: '/src/assets/images/director_behind_scenes_1791448428968.jpg',
+    image: directorBehindScenesImg,
     cameraLook: 'SONY VENICE 2 + LEICA VINTAGE PRIMES',
     setVibe: 'חוויה של פעם בחיים, הפקת שירות VIP מלאה משדה התעופה ועד הפריים האחרון',
   },
@@ -65,7 +69,7 @@ const VIBE_PRESETS: VibePreset[] = [
     inspiredBy: 'בוייב של Adidas × מגה ספורט · השקות טאלנטים',
     description:
       'משיקים מותג אישי, קולקציה או קמפיין גדול? אנחנו בונים סרטון השקה ויראלי וסטילס קמפיין שגורמים למותג להיראות מיליון דולר.',
-    image: '/src/assets/images/commercial_adidas_campaign_1791448404590.jpg',
+    image: commercialAdidasImg,
     cameraLook: 'ARRI ALEXA 35 + ZEISS SUPREME PRIME',
     setVibe: 'סטודיו אופנה עילית, בימוי חד, וגזירות מוכנות לכל הרשתות',
   },

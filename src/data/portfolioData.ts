@@ -1,3 +1,9 @@
+import cinemaFeatureSetImg from '../assets/images/cinema_feature_set_1791448378953.jpg';
+import musicVideoPopStarImg from '../assets/images/music_video_pop_star_1791448392479.jpg';
+import commercialAdidasImg from '../assets/images/commercial_adidas_campaign_1791448404590.jpg';
+import musicVideoNightClubImg from '../assets/images/music_video_night_club_1791448416254.jpg';
+import directorBehindScenesImg from '../assets/images/director_behind_scenes_1791448428968.jpg';
+
 export type ProjectCategory = 'all' | 'cinema' | 'music_videos' | 'commercials';
 
 export interface SceneBreakdown {
@@ -44,7 +50,7 @@ export interface PartnerLogo {
   filterCategory: ProjectCategory;
 }
 
-export const HERO_IMAGE = '/src/assets/images/director_behind_scenes_1791448428968.jpg';
+export const HERO_IMAGE = directorBehindScenesImg;
 
 export const PORTFOLIO_PROJECTS: ProjectItem[] = [
   {
@@ -60,8 +66,8 @@ export const PORTFOLIO_PROJECTS: ProjectItem[] = [
     cameraSpec: 'ARRI ALEXA MINI LF · COOKE ANAMORPHIC',
     aspectRatioLabel: '2.39:1 SCOPE',
     gridSpan: 'wide',
-    image: '/src/assets/images/cinema_feature_set_1791448378953.jpg',
-    secondaryImage: '/src/assets/images/director_behind_scenes_1791448428968.jpg',
+    image: cinemaFeatureSetImg,
+    secondaryImage: directorBehindScenesImg,
     metrics: 'שובר קופות ארצי · צילומי חוץ בניו יורק (MM US)',
     synopsis:
       'הפרק השלישי והשאפתני ביותר בסדרת שוברי הקופות של הקולנוע הישראלי. הפקה מורכבת שחצתה יבשות עם ימי צילום אינטנסיביים בניו יורק ובישראל, ניהול עשרות שחקנים, סטים תקופתיים ועיצוב תאורה קולנועי עשיר.',
@@ -78,13 +84,13 @@ export const PORTFOLIO_PROJECTS: ProjectItem[] = [
         timecode: '00:14:22:08',
         label: 'סצנת הסעודה המרכזית — ניו יורק',
         cameraNote: '35mm Anamorphic · T2.0 · תאורה פרקטית חמה',
-        image: '/src/assets/images/cinema_feature_set_1791448378953.jpg',
+        image: cinemaFeatureSetImg,
       },
       {
         timecode: '00:48:10:19',
         label: 'סט צילומי חוץ — מנהטן בשקיעה',
         cameraNote: 'Steadicam Long Take · Golden Hour',
-        image: '/src/assets/images/director_behind_scenes_1791448428968.jpg',
+        image: directorBehindScenesImg,
       },
     ],
   },
@@ -101,8 +107,8 @@ export const PORTFOLIO_PROJECTS: ProjectItem[] = [
     cameraSpec: 'RED V-RAPTOR 8K VV · ATLAS ORION',
     aspectRatioLabel: '16:9 / 9:16 DUAL',
     gridSpan: 'standard',
-    image: '/src/assets/images/music_video_pop_star_1791448392479.jpg',
-    secondaryImage: '/src/assets/images/music_video_night_club_1791448416254.jpg',
+    image: musicVideoPopStarImg,
+    secondaryImage: musicVideoNightClubImg,
     metrics: '8.4M+ צפיות אורגניות · #1 בחמים של יוטיוב ישראל',
     synopsis:
       'הפקת פופ בקנה מידה בינלאומי לאנה זק. בניית 4 סטים ייחודיים באולפן ענק, גיוס להקת רקדנים בת 24 משתתפים, תאורת במה מתוכנתת מראש וצילום רציף במצלמות קולנוע על גבי טכנו-קריין.',
@@ -119,13 +125,13 @@ export const PORTFOLIO_PROJECTS: ProjectItem[] = [
         timecode: '00:00:42:11',
         label: 'כוריאוגרפיית פתיחה — סטודיו תאורה חכמה',
         cameraNote: 'Technocrane 30ft · Anamorphic Flare',
-        image: '/src/assets/images/music_video_pop_star_1791448392479.jpg',
+        image: musicVideoPopStarImg,
       },
       {
         timecode: '00:02:15:04',
         label: 'סט לילה אורבני — אפקטים מיוחדים',
         cameraNote: 'High-Speed 120fps · Neon Rim Light',
-        image: '/src/assets/images/music_video_night_club_1791448416254.jpg',
+        image: musicVideoNightClubImg,
       },
     ],
   },
@@ -142,8 +148,8 @@ export const PORTFOLIO_PROJECTS: ProjectItem[] = [
     cameraSpec: 'ARRI ALEXA 35 · ZEISS SUPREME PRIME',
     aspectRatioLabel: '1.85:1 COMMERCIAL',
     gridSpan: 'standard',
-    image: '/src/assets/images/commercial_adidas_campaign_1791448404590.jpg',
-    secondaryImage: '/src/assets/images/music_video_pop_star_1791448392479.jpg',
+    image: commercialAdidasImg,
+    secondaryImage: musicVideoPopStarImg,
     metrics: 'קמפיין פריים-טיים ארצי · +210% מעורבות מותג ברבעון השקה',
     synopsis:
       'קמפיין השקה בלעדי לקולקציית Adidas ברשת מגה ספורט. שילוב של דוגמניות על, ספורטאים ואסתטיקה מחוספסת של אצטדיון לילה בגשם מלאכותי ותאורת פלאד-לייט עוצמתית.',
@@ -160,7 +166,7 @@ export const PORTFOLIO_PROJECTS: ProjectItem[] = [
         timecode: '00:00:08:20',
         label: 'שוטים אייקוניים תחת זרקורי האצטדיון',
         cameraNote: '85mm T1.5 · גשם ואפקטים מעשיים בסט',
-        image: '/src/assets/images/commercial_adidas_campaign_1791448404590.jpg',
+        image: commercialAdidasImg,
       },
     ],
   },
@@ -177,8 +183,8 @@ export const PORTFOLIO_PROJECTS: ProjectItem[] = [
     cameraSpec: 'SONY VENICE 2 · LEICA R VINTAGE',
     aspectRatioLabel: '2.00:1 UNIVISIUM',
     gridSpan: 'standard',
-    image: '/src/assets/images/director_behind_scenes_1791448428968.jpg',
-    secondaryImage: '/src/assets/images/cinema_feature_set_1791448378953.jpg',
+    image: directorBehindScenesImg,
+    secondaryImage: cinemaFeatureSetImg,
     metrics: 'כתבת פרופיל מרכזית ב״הצינור״ · הקרנות בכורה מלאות עד אפס מקום',
     synopsis:
       'יצירה קולנועית מקורית ומפתיעה מאת מתנאל גוטליב שעוררה הדים רחבים בתקשורת הישראלית ובפריים-טיים. שילוב נדיר של כתיבה תסריטאית חדה, הומור שחור ודרמה אנושית שמצטלמת ללא פשרות.',
@@ -195,7 +201,7 @@ export const PORTFOLIO_PROJECTS: ProjectItem[] = [
         timecode: '00:21:11:02',
         label: 'מאחורי הקלעים של ההפקה וההקרנה הרשמית',
         cameraNote: 'Leica R 50mm · Natural Available Light',
-        image: '/src/assets/images/director_behind_scenes_1791448428968.jpg',
+        image: directorBehindScenesImg,
       },
     ],
   },
@@ -212,8 +218,8 @@ export const PORTFOLIO_PROJECTS: ProjectItem[] = [
     cameraSpec: 'ARRI ALEXA MINI · KOWA ANAMORPHIC',
     aspectRatioLabel: '2.39:1 ANAMORPHIC',
     gridSpan: 'wide',
-    image: '/src/assets/images/music_video_night_club_1791448416254.jpg',
-    secondaryImage: '/src/assets/images/music_video_pop_star_1791448392479.jpg',
+    image: musicVideoNightClubImg,
+    secondaryImage: musicVideoPopStarImg,
     metrics: 'עשרות מיליוני השמעות וצפיות מצטברות · שיתופי פעולה חוזרים',
     synopsis:
       'סדרת הפקות וידאו-קליפים עתירי תקציב וסטייל עבור השמות הגדולים ביותר במוזיקה הישראלית — משירי מימון ועד האחיות כרקוקלי ועידו מלכה. כל פרויקט נתפר מאפס עם שפה ויזואלית ייחודית, ארט מוקפד וצילום שמציב רף חדש.',
@@ -230,13 +236,13 @@ export const PORTFOLIO_PROJECTS: ProjectItem[] = [
         timecode: '00:01:33:16',
         label: 'צילומי לילה — תאורת ניאון ועשן אטמוספרי',
         cameraNote: 'Kowa Anamorphic 40mm · T2.3',
-        image: '/src/assets/images/music_video_night_club_1791448416254.jpg',
+        image: musicVideoNightClubImg,
       },
       {
         timecode: '00:02:50:00',
         label: 'סט במה מרכזי — כוריאוגרפיה ותנועת מצלמה',
         cameraNote: 'Steadicam Dynamic Tracking',
-        image: '/src/assets/images/music_video_pop_star_1791448392479.jpg',
+        image: musicVideoPopStarImg,
       },
     ],
   },
@@ -253,8 +259,8 @@ export const PORTFOLIO_PROJECTS: ProjectItem[] = [
     cameraSpec: 'ARRI ALEXA LF · MASTER PRIMES',
     aspectRatioLabel: '2.39:1 CINEMA',
     gridSpan: 'hero-wide',
-    image: '/src/assets/images/cinema_feature_set_1791448378953.jpg',
-    secondaryImage: '/src/assets/images/commercial_adidas_campaign_1791448404590.jpg',
+    image: cinemaFeatureSetImg,
+    secondaryImage: commercialAdidasImg,
     metrics: 'הפקות דגל בקולנוע הישראלי + סטים בינלאומיים במזרח אירופה וארה״ב',
     synopsis:
       'מעורבות בהפקות הקולנוע היוקרתיות ביותר בישראל, כולל פרויקט הקולנוע החדש של המאסטר אבי נשר, לצד הפקות שירות וצילומים מורכבים בצ׳כיה (CZ), גאורגיה (GE) וארצות הברית (US).',
@@ -271,7 +277,7 @@ export const PORTFOLIO_PROJECTS: ProjectItem[] = [
         timecode: '01:04:18:22',
         label: 'סט דרמה תקופתית — תאורת פילם קלאסית',
         cameraNote: 'Master Prime 35mm · Chiaroscuro Grade',
-        image: '/src/assets/images/cinema_feature_set_1791448378953.jpg',
+        image: cinemaFeatureSetImg,
       },
     ],
   },
