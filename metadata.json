@@ -1,0 +1,6 @@
+{
+  "name": "Matanel Gotlib — Goatlib Entertainment | בית הפקות סרטים, קליפים ופרסומות",
+  "description": "האתר הרשמי של מתנאל גוטליב (Goatlib Entertainment) — מפיק, תסריטאי ובמאי. הפקות קולנוע (בחורים טובים 3, אבי נשר, אמא פריים טיים), קליפים לאמנים המובילים בישראל (אנה זק, שירי מימון, עידו מלכה, האחיות כרקוקלי) ופרסומות מותג.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
